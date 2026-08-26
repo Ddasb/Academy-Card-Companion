@@ -1,7 +1,7 @@
 package com.kiuseii.acc.client.mixin
 
-import com.kiuseii.acc.client.album.CardAlbumDataParser
-import com.kiuseii.acc.client.album.CardAlbumTooltip
+import com.kiuseii.acc.client.album.data.CardAlbumDataParser
+import com.kiuseii.acc.client.album.tooltip.CardAlbumTooltip
 import com.mojang.serialization.Codec
 import net.minecraft.core.registries.BuiltInRegistries
 import net.minecraft.nbt.CompoundTag

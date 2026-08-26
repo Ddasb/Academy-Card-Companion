@@ -1,4 +1,4 @@
-package com.kiuseii.acc.client.cards
+package com.kiuseii.acc.client.cards.data
 
 import net.minecraft.nbt.ByteTag
 import net.minecraft.nbt.CompoundTag

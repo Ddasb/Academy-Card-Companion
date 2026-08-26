@@ -1,6 +1,7 @@
-package com.kiuseii.acc.client.album
+package com.kiuseii.acc.client.album.tooltip
 
-import com.kiuseii.acc.client.cards.CardDataParser
+import com.kiuseii.acc.client.album.data.CardAlbumSlot
+import com.kiuseii.acc.client.cards.data.CardDataParser
 import net.minecraft.client.gui.Font
 import net.minecraft.client.gui.GuiGraphics
 import net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent

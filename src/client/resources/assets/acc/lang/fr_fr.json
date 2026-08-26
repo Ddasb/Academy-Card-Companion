@@ -1,5 +1,9 @@
 {
   "text.acc.card.display.shift_hint_show": "Appuyez sur MAJ pour voir les stats de base",
   "text.acc.card.display.shift_hint_hide": "Relâchez MAJ pour voir les stats actuelles",
-  "text.acc.card_album.total_bonus": "Bonus total :"
+  "text.acc.card.display.shift_hint_show_ranges": "Appuyez sur MAJ pour voir les ranges de stats",
+  "text.acc.card.display.shift_hint_hide_ranges": "Relâchez sur MAJ pour caché les ranges de stats",
+  "text.acc.card_album.total_bonus": "Bonus total :",
+
+  "acc.card_album.export_clipboard_failed": "Export sauvegardé, mais échec de la copie dans le presse-papier."
 }

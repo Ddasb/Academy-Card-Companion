@@ -3,5 +3,7 @@
   "text.acc.card.display.shift_hint_hide": "Release SHIFT to show current stats",
   "text.acc.card.display.shift_hint_show_ranges": "Press SHIFT to show stats ranges",
   "text.acc.card.display.shift_hint_hide_ranges": "Release SHIFT to hide stats ranges",
-  "text.acc.card_album.total_bonus": "Total bonus:"
+  "text.acc.card_album.total_bonus": "Total bonus:",
+
+  "acc.card_album.export_clipboard_failed": "Export saved, but failed to copy to clipboard."
 }

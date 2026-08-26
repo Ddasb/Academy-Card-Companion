@@ -1,7 +1,7 @@
-package com.kiuseii.acc.client.cards
+package com.kiuseii.acc.client.cards.tooltip
+import com.kiuseii.acc.client.cards.data.CardDataParser
 import com.mojang.serialization.Codec
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback
-import net.minecraft.client.gui.screens.Screen
 import net.minecraft.core.registries.BuiltInRegistries
 import net.minecraft.nbt.CompoundTag
 import net.minecraft.nbt.NbtOps

@@ -1,6 +1,8 @@
-package com.kiuseii.acc.client.album
+package com.kiuseii.acc.client.album.tooltip
 
-import com.kiuseii.acc.client.cards.CardTooltipFormater
+import com.kiuseii.acc.client.album.data.CardAlbumDataParser
+import com.kiuseii.acc.client.album.data.CardAlbumStatAggregator
+import com.kiuseii.acc.client.cards.tooltip.CardTooltipFormater
 import com.mojang.serialization.Codec
 import net.fabricmc.fabric.api.client.item.v1.ItemTooltipCallback
 import net.minecraft.ChatFormatting
@@ -34,7 +36,7 @@ object CardAlbumTooltipHandler {
                 lines.add(CardTooltipFormater.formatModifier(statValue, grade = 3))
             }
 
-
+            lines.add(Component.literal(""))
             lines.add(formatDetail())
         }
     }

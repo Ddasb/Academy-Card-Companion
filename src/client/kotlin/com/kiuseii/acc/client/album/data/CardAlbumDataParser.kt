@@ -1,4 +1,4 @@
-package com.kiuseii.acc.client.album
+package com.kiuseii.acc.client.album.data
 
 import net.minecraft.nbt.CompoundTag
 import net.minecraft.nbt.Tag

@@ -1,4 +1,4 @@
-package com.kiuseii.acc.client.cards
+package com.kiuseii.acc.client.cards.data
 
 data class CardStatDefinition(
     val key: String,

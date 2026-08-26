@@ -1,8 +1,8 @@
-package com.kiuseii.acc.client.album
+package com.kiuseii.acc.client.album.data
 
-import com.kiuseii.acc.client.cards.CardDataParser
-import com.kiuseii.acc.client.cards.CardStat
-import com.kiuseii.acc.client.cards.CardStatValue
+import com.kiuseii.acc.client.cards.data.CardDataParser
+import com.kiuseii.acc.client.cards.data.CardStat
+import com.kiuseii.acc.client.cards.data.CardStatValue
 
 object CardAlbumStatAggregator {
 

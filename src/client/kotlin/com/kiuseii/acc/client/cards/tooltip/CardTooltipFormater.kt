@@ -1,5 +1,7 @@
-package com.kiuseii.acc.client.cards
+package com.kiuseii.acc.client.cards.tooltip
 
+import com.kiuseii.acc.client.cards.data.CardStat
+import com.kiuseii.acc.client.cards.data.CardStatValue
 import com.kiuseii.acc.client.util.GradientText
 import net.minecraft.ChatFormatting
 import net.minecraft.client.gui.screens.Screen
