@@ -1,4 +1,4 @@
- # acc
+ # Academy Card Companion
 
 ## Setup
 
