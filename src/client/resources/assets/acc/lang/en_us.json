@@ -1,0 +1,7 @@
+{
+  "text.acc.card.display.shift_hint_show": "Press SHIFT to show base stats",
+  "text.acc.card.display.shift_hint_hide": "Release SHIFT to show current stats",
+  "text.acc.card.display.shift_hint_show_ranges": "Press SHIFT to show stats ranges",
+  "text.acc.card.display.shift_hint_hide_ranges": "Release SHIFT to hide stats ranges",
+  "text.acc.card_album.total_bonus": "Total bonus:"
+}
