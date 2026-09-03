@@ -24,10 +24,16 @@ class CardAlbumClientTooltip(private val slots: List<CardAlbumSlot>) : ClientToo
         private const val SLOT_WIDTH = FRAME_WIDTH + SLOT_MARGIN
         private const val SLOT_HEIGHT = FRAME_HEIGHT + SLOT_MARGIN
         private const val COLUMNS = 6
-        private const val ROWS = 2
+        private const val MAX_ROWS = 2
     }
 
-    override fun getHeight(): Int = ROWS * SLOT_HEIGHT + 2
+    private val rowCount: Int = when {
+        slots.isEmpty() -> 0
+        slots.size <= COLUMNS -> 1
+        else -> MAX_ROWS
+    }
+
+    override fun getHeight(): Int = rowCount * SLOT_HEIGHT + 2
 
     override fun getWidth(font: Font): Int = COLUMNS * SLOT_WIDTH
 
