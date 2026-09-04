@@ -33,7 +33,7 @@ class CardAlbumClientTooltip(private val slots: List<CardAlbumSlot>) : ClientToo
         else -> MAX_ROWS
     }
 
-    override fun getHeight(): Int = rowCount * SLOT_HEIGHT + 2
+    override fun getHeight(): Int = rowCount * SLOT_HEIGHT
 
     override fun getWidth(font: Font): Int = COLUMNS * SLOT_WIDTH
 
